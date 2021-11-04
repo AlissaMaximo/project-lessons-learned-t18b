@@ -44,5 +44,16 @@ body {
 
 .paragrafo {
     margin-left: 60px;
+    padding: 10px;
+    padding-bottom: 50px;
 }
+
+article {
+    max-width:60%;
+    margin-left: 60px;
+    padding: 20px;
+    border: 5px solid #bb7af8;
+}
+
+
 
