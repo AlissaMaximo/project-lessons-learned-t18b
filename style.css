@@ -9,6 +9,19 @@ body {
 
 #cabecalho {
     position: fixed;
-    background-color: rgba(140, 17, 255, 0.295);
+    background-color: #bb7af8;
     width: 100%;
+    height: max-content;
+}
+
+#titulo {
+    font-size: 48px;
+    margin-left: 30px;
+}
+
+#minha_foto {
+    width: 250px;
+    margin-top: 100px;
+    margin-left: 30px;
+    border: 6px dashed #bb7af8;
 }
