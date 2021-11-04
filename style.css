@@ -14,6 +14,12 @@ body {
     height: max-content;
 }
 
+#rodape {
+    position: absolute;
+    bottom: 0;
+    padding-top: 30px;
+}
+
 #titulo {
     font-size: 48px;
     margin-left: 30px;
@@ -37,11 +43,6 @@ body {
     display: inline-block;
 }
 
-#rodape {
-    position: absolute;
-    bottom: 0;
-}
-
 .paragrafo {
     margin-left: 60px;
     padding: 10px;
@@ -53,7 +54,15 @@ article {
     margin-left: 60px;
     padding: 20px;
     border: 5px solid #bb7af8;
+    position: absolute;
 }
 
-
+aside {
+    max-width: 20%;
+    margin-right: 15px;
+    padding: 15px;
+    border: 5px solid hsl(187, 100%, 82%);
+    margin-left: 80%;
+    position: absolute;
+}
 
