@@ -37,3 +37,7 @@ body {
     display: inline-block;
 }
 
+#rodape {
+    position: absolute;
+    bottom: 0;
+}
