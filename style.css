@@ -28,5 +28,12 @@ body {
 
 #licoes_aprendidas {
     padding: 50px;
-    margin-left: 70px;
+    display: inline-block;
 }
+
+#licoes_a_aprender {
+    padding: 50px;
+    margin-left: 60px;
+    display: inline-block;
+}
+
