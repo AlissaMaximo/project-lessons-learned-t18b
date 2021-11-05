@@ -14,6 +14,14 @@ body {
     height: max-content;
 }
 
+nav {
+    float: right;
+}
+
+.sem-bullets {
+    list-style-type: none;
+}
+
 #rodape {
     position: absolute;
     bottom: 0;
@@ -22,7 +30,7 @@ body {
 
 #titulo {
     font-size: 48px;
-    margin-left: 30px;
+    margin-left: 30px;position: absolute;
 }
 
 #minha_foto {
@@ -43,7 +51,7 @@ body {
     display: inline-block;
 }
 
-.paragrafo {
+.links {
     margin-left: 60px;
     padding: 10px;
     padding-bottom: 50px;
@@ -66,3 +74,7 @@ aside {
     position: absolute;
 }
 
+img.img-linkedin {
+    width: 40px;
+    height: 40px;
+}
