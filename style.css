@@ -19,7 +19,7 @@ nav {
 }
 
 .sem-bullets {
-    list-style-type: none;
+    list-style-type: none; /*pesquisei o estilo da lista na W3Schools*/
 }
 
 #rodape {
@@ -30,7 +30,8 @@ nav {
 
 #titulo {
     font-size: 48px;
-    margin-left: 30px;position: absolute;
+    margin-left: 30px;
+    position: absolute;
 }
 
 #minha_foto {
@@ -74,6 +75,7 @@ aside {
     position: absolute;
 }
 
+/* Para selecionar apenas a tag imagem na classe img-linkedin a Carol Silva me mostrou que precisa colocar um ponto entre os dois. */
 img.img-linkedin {
     width: 40px;
     height: 40px;
