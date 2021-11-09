@@ -23,7 +23,6 @@ nav {
 }
 
 #rodape {
-  position: absolute;
   bottom: 0;
   padding-top: 30px;
 }
@@ -59,24 +58,31 @@ nav {
 }
 
 article {
-  max-width: 60%;
+  max-width: fit-content;
   margin-left: 60px;
+  margin-right: 30%;
   padding: 20px;
   border: 5px solid rgb(187, 122, 248);
-  position: absolute;
+  display: inline-block;
 }
 
 aside {
-  max-width: 20%;
+  max-width: fit-content;
   margin-right: 15px;
+  margin-left: 80%;
   padding: 15px;
   border: 5px solid hsl(187, 100%, 82%);
-  margin-left: 80%;
-  position: absolute;
+  display: inline-block;
 }
 
-/* Para selecionar apenas a tag imagem na classe img-linkedin a Carol Silva me mostrou que precisa colocar um ponto entre os dois. */
-img.img-linkedin {
+/* Para selecionar apenas a tag imagem na classe img-linkedin
+a Carol Silva me mostrou que precisa colocar um ponto entre os dois.
+Contudo o StyleLint estava dando erro, então o Caio Swae e o site StyleLint
+(https://stylelint.io/user-guide/rules/list/selector-no-qualifying-type/)
+falaram que precisa deixar apenas a classe (e não combinar os dois,
+aparentemente porque não é uma boa prática/porque só há uma tag dentro da classe.  */
+
+.img-linkedin {
   width: 40px;
   height: 40px;
 }
